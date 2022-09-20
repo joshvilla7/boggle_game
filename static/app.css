@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: url('https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-size: 1820px;
+    background-position: left;
+    
+  }
+
+  h1 {
+    margin-top: 14px;
+    font-family: 'Bungee Spice';
+    font-size: 50px;
+  }
+
+  header {
+    display: flex;
+  }
+
+  h3 {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 17px;
+    font-family: 'Zen Dots';
+  }
+
+  #scoretimer {
+    font-family: 'Zen Dots';
+  }
+  
+  
+  body {
+    height: 100vh;
+
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  table {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    font-size: 30px;
+    letter-spacing: 7px;
+    background-color: rgb(244, 237, 229);
+    width: 450px;
+    height: 400px;
+  
+    border: 2px solid rgb(236, 150, 12);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px  rgb(93, 93, 93);
+  }
+  
+  form {
+    display: flex;
+    margin-top: 25px;
+    border-radius: 8px;
+    
+  }
+
+  input {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Zen Dots';
+  }
+
+  .submit {
+    margin-left: 20px;
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: limegreen;
+    color: whitesmoke;
+    font-family: 'Zen Dots';
+  }
+  
+  .score {
+    margin-right: 20px;
+  }
+
+  .score,
+  .timer,
+  i {
+    color: brown;
+  }
+
+  div {
+    position: absolute;
+    left: 72%;
+    top: 100px;
+    font-family: 'Zen Dots';
+  }
+
+ li {
+    margin: 17px;
+ }
+
+ .reset {
+    margin-top: 410px;
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: firebrick;
+    color: white;
+    font-family: 'Zen Dots';
+    font-size: 30px;
+ }
+
+ .reset:hover {
+    cursor: pointer;
+    box-shadow: 7px 7px 7px lightcyan;
+    opacity: 0.8;
+    border: 7px;
+ }
+
+ .submit:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 1px rgb(85, 84, 84);
+ }
+
+ ul {
+    color: rgb(215, 74, 3);
+ }
+
+ #mess {
+    color: rgb(140, 0, 12);
+ }
+
+ .ender {
+    background: url('https://images6.alphacoders.com/106/1062524.jpg') no-repeat center fixed;
+    }
+
+
+.hide {
+    display: none;
+}
+
+  
+  
